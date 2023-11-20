@@ -41,18 +41,21 @@ public class StudentRestController {
 	@RequestMapping(value="/students/",method=RequestMethod.POST)
 	public Student createStudent(@RequestBody Student student)
 	{
+		LOGGER.info("Finding Students");
 		return studentRepository.save(student);
 	}
 	
 	@RequestMapping(value="/students/",method=RequestMethod.PUT)
 	public Student updateStudent(@RequestBody Student student)
 	{
+		LOGGER.info("Updating Student details");
 		return studentRepository.save(student);
 	}
 	
 	@RequestMapping(value="/students/",method=RequestMethod.DELETE)
 	public void deleteStudent(@PathVariable("id") int id)
 	{
+		LOGGER.info("Deleting Student by id");
 		studentRepository.deleteById(id);
 	}
 
