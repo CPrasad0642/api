@@ -1,0 +1,26 @@
+2023-11-02T00:26:38.325+05:30  INFO 3652 --- [main] c.p.springweb.StudentrestapiApplication  : Starting StudentrestapiApplication using Java 17.0.8.1 with PID 3652 (E:\Java projects\studentrestapi\target\classes started by prasa in E:\Java projects\studentrestapi)
+2023-11-02T00:26:38.337+05:30  INFO 3652 --- [main] c.p.springweb.StudentrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-11-02T00:26:39.064+05:30  INFO 3652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02T00:26:39.146+05:30  INFO 3652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-11-02T00:26:39.679+05:30  INFO 3652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-02T00:26:39.690+05:30  INFO 3652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-02T00:26:39.690+05:30  INFO 3652 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02T00:26:39.798+05:30  INFO 3652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-02T00:26:39.799+05:30  INFO 3652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1371 ms
+2023-11-02T00:26:39.909+05:30  INFO 3652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-02T00:26:40.431+05:30  INFO 3652 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@675b18ff
+2023-11-02T00:26:40.437+05:30  INFO 3652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-02T00:26:40.510+05:30  INFO 3652 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02T00:26:40.564+05:30  INFO 3652 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02T00:26:40.566+05:30  INFO 3652 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-02T00:26:41.128+05:30  INFO 3652 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02T00:26:42.182+05:30  INFO 3652 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02T00:26:42.189+05:30  INFO 3652 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02T00:26:42.436+05:30  WARN 3652 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02T00:26:43.035+05:30  INFO 3652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02T00:26:43.064+05:30  INFO 3652 --- [main] c.p.springweb.StudentrestapiApplication  : Started StudentrestapiApplication in 5.742 seconds (process running for 7.207)
+2023-11-02T00:36:12.548+05:30  INFO 3652 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-11-02T00:36:12.581+05:30  INFO 3652 --- [RMI TCP Connection(19)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-02T00:36:12.649+05:30  INFO 3652 --- [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02T00:36:12.657+05:30  INFO 3652 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-02T00:36:12.765+05:30  INFO 3652 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
